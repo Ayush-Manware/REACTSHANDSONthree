@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Merriweather&family=Montserrat:wght@100;200&family=Pacifico&family=Playfair+Display:wght@500&family=Tilt+Prism&family=Ysabeau+Infant&display=swap');
+
+
+.headingOne{
+  color: cadetblue;
+  font-size: 3vw;
+  text-align: center;
+  font-family: 'Tilt Prism', cursive;
+  letter-spacing: 0.1vw;
+}
+
+.form{
+  width: 60vw;
+  border-bottom: 0.1vw solid cadetblue;
+  border-top: 0.1vw solid cadetblue;
+  box-shadow: 0px 3px 10px rgba(95, 158, 160, 0.253);
+  margin: auto;
+  min-height: 10vw;
+  border-radius: 0.5vw;
+}
+
+.label, .input{
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 1vw 0vw;
+  font-size: 2vw;
+  color: cadetblue;
+  border: none;
+}
+
+.input{
+  border-bottom: 0.3vw solid cadetblue;
+  text-align: center;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.input:focus{
+  outline: none; 
+  border-color: greenyellow;
+}
+
+.submitBtn{
+  width: 90%;
+  margin: 2vw auto;
+  padding: 1vw 0vw;
+  font-size: 2.5vw;
+  background-color: cadetblue;
+  color: white;
+  border-color: transparent;
+  display: block;
+  outline: none;
+  transition: all 0.2s linear;
+}
+
+.submitBtn:hover{
+  background-color: white;
+  border-color: transparent;
+  color: cadetblue;
+  outline: none;
+  letter-spacing: 0.2vw;
+  box-shadow: 0.2vw 0.2vw 1vw rgba(95, 158, 160, 0.475);
+}
+
+.print{
+  color: cadetblue;
+  padding: 10px;
+}
+
+.backBtn{
+  width: 90%;
+  margin: 2vw auto;
+  padding: 1vw 0vw;
+  font-size: 2.5vw;
+  background-color: cadetblue;
+  color: white;
+  border-color: transparent;
+  display: block;
+  outline: none;
+  transition: all 0.2s linear;
+}
+
+
